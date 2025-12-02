@@ -26,17 +26,16 @@
 # - Kullanıcı harf tahmin etsin, doğruysa listeye eklenip gösterilsin.
 
 
-kelime= (input("kelime giriniz: "))
-
-for char in kelime:
-    char = input("harf tahmin ediniz: ")
-    char.append(char)
-    if char in kelime:
-        print(f"Doğru tahmin: {char}")
-    else:
-        print("Yanlış tahmin, tekrar deneyin.")
+# kelime= (input("kelime giriniz: "))
+# char = []
+# for char in kelime:
+#     char = input("harf tahmin ediniz: ")
+#     if char in kelime:
+#         print(f"Doğru tahmin: {char}")
+#     else:
+#         print("Yanlış tahmin, tekrar deneyin.")
         
-print(char)
+# print(char)
     
         
     
