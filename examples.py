@@ -69,23 +69,23 @@
 - Eğer aşılmazsa → “Check-in başarılı”.
 """
 
-ticket_classes = {
-    "ekonomi":{
-        "baggage_limit": 20,
-    },
-    "business":{
-        "baggage_limit": 30,
-    }
-}
-user_ticket = input("hangi tür bilet: ")
-if (user_ticket in ticket_classes):
-    if ( user_ticket=="ekonomi"):
-        print("bagaj limitiniz 20 kg")
-        baggage = int(input("kaç kg: "))
-        print(f"aşılmadı" if ( baggage<=ticket_classes["ekonomi"]["baggage_limit"])else"aşıldı")
-    else:
-        print("bagaj limitiniz 30 kg")
-        baggage = int(input("kaç kg: "))
-        print(f"aşılmadı" if ( baggage<=ticket_classes["business"]["baggage_limit"])else"aşıldı")
-else:
-    print("hatalı griş")
+# ticket_classes = {
+#     "ekonomi":{
+#         "baggage_limit": 20,
+#     },
+#     "business":{
+#         "baggage_limit": 30,
+#     }
+# }
+# user_ticket = input("hangi tür bilet: ")
+# if (user_ticket in ticket_classes):
+#     if ( user_ticket=="ekonomi"):
+#         print("bagaj limitiniz 20 kg")
+#         baggage = int(input("kaç kg: "))
+#         print(f"aşılmadı" if ( baggage<=ticket_classes["ekonomi"]["baggage_limit"])else"aşıldı")
+#     else:
+#         print("bagaj limitiniz 30 kg")
+#         baggage = int(input("kaç kg: "))
+#         print(f"aşılmadı" if ( baggage<=ticket_classes["business"]["baggage_limit"])else"aşıldı")
+# else:
+#     print("hatalı griş")
