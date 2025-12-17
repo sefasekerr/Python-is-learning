@@ -36,6 +36,11 @@
     <th>Day 10 </th>
     <td>Today, the online course I took for intermediate-level Python ended. Now I can do some things directly, but I will continue to develop and add on to it because, as Rocky said, 'your biggest opponent is yourself from yesterday.' Even if I know just one more word than yesterday, I am the one who benefits. We should always work to get better.</td>
   </tr>
+  </tr>
+  <tr>
+    <th>Day 17 </th>
+    <td>I think I slacked off a bit this week, but I'm trying to learn both SQL and Python. I spend 6 hours a day on Python and 2 hours on SQL. Hopefully, I'll learn both languages before the end of this month.</td>
+  </tr>
 </table>](url)
 
 ## 🔗 Bağlantılar
