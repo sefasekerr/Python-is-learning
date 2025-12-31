@@ -1,0 +1,61 @@
+/* p:hover {
+  color: purple;
+} */
+
+
+@font-face { font-family: "Udemy Sans"; src: url("fonts/Udemy-Sans-Light-v1.woff2") format("woff2"); font-weight: 300; /* Light */ font-style: normal; } @font-face { font-family: "Udemy Sans"; src: url("fonts/Udemy-Sans-Medium-v1.woff2") format("woff2"); font-weight: 500; /* Medium */ font-style: normal; }
+
+
+
+p {
+  color: purple;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+}
+
+/* div {
+  text-align: center;
+  border: 2px dashed blue;
+  
+  font-size: 50px;
+  padding: 10px;
+  margin: 0px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 10px solid yellow;
+  /* padding-left: 100px; */
+  /* padding: 4px 30px 50px 30px;
+  padding-top: 050px;
+  background-color: hsl(209, 79%, 29%)
+} */ 
+body{
+  background-color: #f8f5f5;
+  
+  }
+
+.üst-div{
+  display: block;
+  border: 20px solid black;
+  border-radius: 2px solid black;
+  background-color: lightblue;
+  border: 5px solid red;
+  padding: 20px;
+  margin: 20px;
+}
+.alt-div{
+  background-color: lightgreen;
+  border: 5px solid purple;
+  padding: 20px;
+  margin: 20px;
+}
+#son-div{
+  display: block;
+  background-color: lightgray;
+  border: 5px solid orange;
+  padding: 20px;
+  margin: 20px;
+}

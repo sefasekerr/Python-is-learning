@@ -1,0 +1,5 @@
+bilgisayar,15000,2
+telefon,5000,2
+buzdolabı,20000,1
+çamaşır makinesi,50000,1
+televizyon,15000,1
